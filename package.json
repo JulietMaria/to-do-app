@@ -21,8 +21,9 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "test": "jest",
+        "eject": "react-scripts eject",
+        "coverage" : "jest --coverage"
     },
     "eslintConfig": {
         "extends": [
@@ -52,5 +53,11 @@
         "todoapp"
     ],
     "author": "Juliet Maria",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.19.3",
+        "@babel/preset-env": "^7.19.3",
+        "babel-jest": "^29.1.2",
+        "jest": "^29.1.2"
+    }
 }
